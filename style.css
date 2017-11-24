@@ -49,13 +49,15 @@ body {
 }
 
 @keyframes bounce {
-  0%   {transform: translateX(-150px);}
-  50%  {transform: translateX(550px);}
-  51%  {transform: translateX(550px); bottom:5px;}
-  52%  {transform: translateX(550px); bottom:45px;}
-  53%  {transform: translateX(550px); bottom:150px;}
-  54%  {transform: translateX(550px); bottom:20px;}
-  55%  {transform: translateX(550px); bottom:5px;}
+  0%   {transform: translateX(-150px)}
+  49%  {transform: translateX(550px);}
+  50%  {transform: translateX(550px) rotateY(180deg);}
+  51%  {transform: translateX(550px) rotateY(180deg); bottom:5px;}
+  52%  {transform: translateX(550px) rotateY(180deg); bottom:45px;}
+  53%  {transform: translateX(550px) rotateY(180deg); bottom:150px;}
+  54%  {transform: translateX(550px) rotateY(180deg); bottom:20px;}
+  55%  {transform: translateX(550px) rotateY(180deg); bottom:5px;}
+  56%  {transform: translateX(550px) rotateY(0deg);}
   100% {transform: translateX(2700px);}
 
 }
